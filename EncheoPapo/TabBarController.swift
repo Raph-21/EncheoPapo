@@ -28,14 +28,14 @@ class TabBarController: UITabBarController{
         
         guard let itens = tabBar.items else{return}
         
-        itens[0].title = "Geladeira"
-        itens[0].image = UIImage()
+        itens[0].title = ""
+        itens[0].image = UIImage(imageLiteralResourceName: "cubo 1")
         
-        itens[1].title = "Home"
-        itens[1].image = UIImage()
+        itens[1].title = ""
+        itens[1].image = UIImage(imageLiteralResourceName: "casa 2")
         
-        itens[2].title = "Conquistas"
-        itens[2].image = UIImage()
+        itens[2].title = ""
+        itens[2].image = UIImage(imageLiteralResourceName: "trofeu 1")
     }
 }
 
@@ -45,7 +45,6 @@ class TelaGeladeira: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .yellow
-        self.title = "Geladeira"
         // Do any additional setup after loading the view.
     }
 }
@@ -55,7 +54,6 @@ class TelaCozinha: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .blue
-        self.title = "O que você quer cozinhar hoje?"
         // Do any additional setup after loading the view.
     }
 }
@@ -65,7 +63,6 @@ class TelaConquistas: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
-        self.title = "Conquistas"
         // Do any additional setup after loading the view.
     }
 }
