@@ -18,7 +18,7 @@ class TabBarController: UITabBarController{
     private func setupTabBarController(){
         
         let geladeira = UINavigationController(rootViewController: TelaGeladeira())
-        let cozinha = UINavigationController(rootViewController: TelaCozinha())
+        let cozinha = UINavigationController(rootViewController: CozinhaViewController())
         let conquistas = UINavigationController(rootViewController: TelaConquistas())
 
         
@@ -28,13 +28,13 @@ class TabBarController: UITabBarController{
         
         guard let itens = tabBar.items else{return}
         
-        itens[0].title = "Geladeira"
+        itens[0].title = ""
         itens[0].image = UIImage()
         
-        itens[1].title = "Home"
+        itens[1].title = ""
         itens[1].image = UIImage()
         
-        itens[2].title = "Conquistas"
+        itens[2].title = ""
         itens[2].image = UIImage()
     }
 }
@@ -44,21 +44,13 @@ class TelaGeladeira: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .yellow
+        self.view.backgroundColor = .white
         self.title = "Geladeira"
         // Do any additional setup after loading the view.
     }
 }
 
-class TelaCozinha: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = .blue
-        self.title = "O que você quer cozinhar hoje?"
-        // Do any additional setup after loading the view.
-    }
-}
 
 class TelaConquistas: UIViewController {
 

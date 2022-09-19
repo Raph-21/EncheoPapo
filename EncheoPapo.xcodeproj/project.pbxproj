@@ -12,6 +12,26 @@
 		64DBC8BB28D0A7AA00091E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DBC8BA28D0A7AA00091E49 /* Assets.xcassets */; };
 		64DBC8BE28D0A7AA00091E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DBC8BC28D0A7AA00091E49 /* LaunchScreen.storyboard */; };
 		64DBC8CA28D351B100091E49 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DBC8C928D351B100091E49 /* TabBarController.swift */; };
+		DE11FD3828D4B41700B23053 /* CozinhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE11FD3728D4B41700B23053 /* CozinhaViewController.swift */; };
+		DE11FD5228D4C58F00B23053 /* Epilogue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4028D4C58E00B23053 /* Epilogue-Bold.ttf */; };
+		DE11FD5328D4C58F00B23053 /* Epilogue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4128D4C58E00B23053 /* Epilogue-Regular.ttf */; };
+		DE11FD5428D4C58F00B23053 /* Epilogue-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4228D4C58E00B23053 /* Epilogue-LightItalic.ttf */; };
+		DE11FD5528D4C58F00B23053 /* Epilogue-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4328D4C58F00B23053 /* Epilogue-ExtraBoldItalic.ttf */; };
+		DE11FD5628D4C58F00B23053 /* Epilogue-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4428D4C58F00B23053 /* Epilogue-Light.ttf */; };
+		DE11FD5728D4C58F00B23053 /* Epilogue-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4528D4C58F00B23053 /* Epilogue-Black.ttf */; };
+		DE11FD5828D4C58F00B23053 /* Epilogue-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4628D4C58F00B23053 /* Epilogue-BlackItalic.ttf */; };
+		DE11FD5928D4C58F00B23053 /* Epilogue-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4728D4C58F00B23053 /* Epilogue-SemiBoldItalic.ttf */; };
+		DE11FD5A28D4C58F00B23053 /* Epilogue-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4828D4C58F00B23053 /* Epilogue-ExtraLightItalic.ttf */; };
+		DE11FD5B28D4C58F00B23053 /* Epilogue-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4928D4C58F00B23053 /* Epilogue-SemiBold.ttf */; };
+		DE11FD5C28D4C58F00B23053 /* Epilogue-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4A28D4C58F00B23053 /* Epilogue-Medium.ttf */; };
+		DE11FD5D28D4C58F00B23053 /* Epilogue-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4B28D4C58F00B23053 /* Epilogue-Italic.ttf */; };
+		DE11FD5E28D4C58F00B23053 /* Epilogue-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4C28D4C58F00B23053 /* Epilogue-Thin.ttf */; };
+		DE11FD5F28D4C58F00B23053 /* Epilogue-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4D28D4C58F00B23053 /* Epilogue-MediumItalic.ttf */; };
+		DE11FD6028D4C58F00B23053 /* Epilogue-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4E28D4C58F00B23053 /* Epilogue-ExtraLight.ttf */; };
+		DE11FD6128D4C58F00B23053 /* Epilogue-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD4F28D4C58F00B23053 /* Epilogue-ExtraBold.ttf */; };
+		DE11FD6228D4C58F00B23053 /* Epilogue-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD5028D4C58F00B23053 /* Epilogue-ThinItalic.ttf */; };
+		DE11FD6328D4C58F00B23053 /* Epilogue-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE11FD5128D4C58F00B23053 /* Epilogue-BoldItalic.ttf */; };
+		DE11FD6A28D4E0A400B23053 /* CozinhaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE11FD6928D4E0A400B23053 /* CozinhaCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +42,26 @@
 		64DBC8BD28D0A7AA00091E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64DBC8BF28D0A7AA00091E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64DBC8C928D351B100091E49 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DE11FD3728D4B41700B23053 /* CozinhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CozinhaViewController.swift; sourceTree = "<group>"; };
+		DE11FD4028D4C58E00B23053 /* Epilogue-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Bold.ttf"; sourceTree = "<group>"; };
+		DE11FD4128D4C58E00B23053 /* Epilogue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Regular.ttf"; sourceTree = "<group>"; };
+		DE11FD4228D4C58E00B23053 /* Epilogue-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-LightItalic.ttf"; sourceTree = "<group>"; };
+		DE11FD4328D4C58F00B23053 /* Epilogue-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		DE11FD4428D4C58F00B23053 /* Epilogue-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Light.ttf"; sourceTree = "<group>"; };
+		DE11FD4528D4C58F00B23053 /* Epilogue-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Black.ttf"; sourceTree = "<group>"; };
+		DE11FD4628D4C58F00B23053 /* Epilogue-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-BlackItalic.ttf"; sourceTree = "<group>"; };
+		DE11FD4728D4C58F00B23053 /* Epilogue-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		DE11FD4828D4C58F00B23053 /* Epilogue-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		DE11FD4928D4C58F00B23053 /* Epilogue-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-SemiBold.ttf"; sourceTree = "<group>"; };
+		DE11FD4A28D4C58F00B23053 /* Epilogue-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Medium.ttf"; sourceTree = "<group>"; };
+		DE11FD4B28D4C58F00B23053 /* Epilogue-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Italic.ttf"; sourceTree = "<group>"; };
+		DE11FD4C28D4C58F00B23053 /* Epilogue-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-Thin.ttf"; sourceTree = "<group>"; };
+		DE11FD4D28D4C58F00B23053 /* Epilogue-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DE11FD4E28D4C58F00B23053 /* Epilogue-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-ExtraLight.ttf"; sourceTree = "<group>"; };
+		DE11FD4F28D4C58F00B23053 /* Epilogue-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DE11FD5028D4C58F00B23053 /* Epilogue-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-ThinItalic.ttf"; sourceTree = "<group>"; };
+		DE11FD5128D4C58F00B23053 /* Epilogue-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Epilogue-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DE11FD6928D4E0A400B23053 /* CozinhaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CozinhaCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +94,42 @@
 		64DBC8B028D0A7A900091E49 /* EncheoPapo */ = {
 			isa = PBXGroup;
 			children = (
+				DE11FD6428D4C59500B23053 /* Fonts */,
 				64DBC8B128D0A7A900091E49 /* AppDelegate.swift */,
 				64DBC8B328D0A7A900091E49 /* SceneDelegate.swift */,
 				64DBC8C928D351B100091E49 /* TabBarController.swift */,
+				DE11FD3728D4B41700B23053 /* CozinhaViewController.swift */,
+				DE11FD6928D4E0A400B23053 /* CozinhaCollectionViewCell.swift */,
 				64DBC8BA28D0A7AA00091E49 /* Assets.xcassets */,
 				64DBC8BC28D0A7AA00091E49 /* LaunchScreen.storyboard */,
 				64DBC8BF28D0A7AA00091E49 /* Info.plist */,
 			);
 			path = EncheoPapo;
+			sourceTree = "<group>";
+		};
+		DE11FD6428D4C59500B23053 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE11FD4528D4C58F00B23053 /* Epilogue-Black.ttf */,
+				DE11FD4628D4C58F00B23053 /* Epilogue-BlackItalic.ttf */,
+				DE11FD4028D4C58E00B23053 /* Epilogue-Bold.ttf */,
+				DE11FD5128D4C58F00B23053 /* Epilogue-BoldItalic.ttf */,
+				DE11FD4F28D4C58F00B23053 /* Epilogue-ExtraBold.ttf */,
+				DE11FD4328D4C58F00B23053 /* Epilogue-ExtraBoldItalic.ttf */,
+				DE11FD4E28D4C58F00B23053 /* Epilogue-ExtraLight.ttf */,
+				DE11FD4828D4C58F00B23053 /* Epilogue-ExtraLightItalic.ttf */,
+				DE11FD4B28D4C58F00B23053 /* Epilogue-Italic.ttf */,
+				DE11FD4428D4C58F00B23053 /* Epilogue-Light.ttf */,
+				DE11FD4228D4C58E00B23053 /* Epilogue-LightItalic.ttf */,
+				DE11FD4A28D4C58F00B23053 /* Epilogue-Medium.ttf */,
+				DE11FD4D28D4C58F00B23053 /* Epilogue-MediumItalic.ttf */,
+				DE11FD4128D4C58E00B23053 /* Epilogue-Regular.ttf */,
+				DE11FD4928D4C58F00B23053 /* Epilogue-SemiBold.ttf */,
+				DE11FD4728D4C58F00B23053 /* Epilogue-SemiBoldItalic.ttf */,
+				DE11FD4C28D4C58F00B23053 /* Epilogue-Thin.ttf */,
+				DE11FD5028D4C58F00B23053 /* Epilogue-ThinItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +190,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE11FD5828D4C58F00B23053 /* Epilogue-BlackItalic.ttf in Resources */,
+				DE11FD5528D4C58F00B23053 /* Epilogue-ExtraBoldItalic.ttf in Resources */,
 				64DBC8BE28D0A7AA00091E49 /* LaunchScreen.storyboard in Resources */,
+				DE11FD5F28D4C58F00B23053 /* Epilogue-MediumItalic.ttf in Resources */,
+				DE11FD6228D4C58F00B23053 /* Epilogue-ThinItalic.ttf in Resources */,
+				DE11FD5B28D4C58F00B23053 /* Epilogue-SemiBold.ttf in Resources */,
+				DE11FD5928D4C58F00B23053 /* Epilogue-SemiBoldItalic.ttf in Resources */,
+				DE11FD5728D4C58F00B23053 /* Epilogue-Black.ttf in Resources */,
+				DE11FD5E28D4C58F00B23053 /* Epilogue-Thin.ttf in Resources */,
+				DE11FD6128D4C58F00B23053 /* Epilogue-ExtraBold.ttf in Resources */,
+				DE11FD5A28D4C58F00B23053 /* Epilogue-ExtraLightItalic.ttf in Resources */,
+				DE11FD5328D4C58F00B23053 /* Epilogue-Regular.ttf in Resources */,
+				DE11FD6028D4C58F00B23053 /* Epilogue-ExtraLight.ttf in Resources */,
+				DE11FD6328D4C58F00B23053 /* Epilogue-BoldItalic.ttf in Resources */,
+				DE11FD5D28D4C58F00B23053 /* Epilogue-Italic.ttf in Resources */,
+				DE11FD5428D4C58F00B23053 /* Epilogue-LightItalic.ttf in Resources */,
 				64DBC8BB28D0A7AA00091E49 /* Assets.xcassets in Resources */,
+				DE11FD5228D4C58F00B23053 /* Epilogue-Bold.ttf in Resources */,
+				DE11FD5C28D4C58F00B23053 /* Epilogue-Medium.ttf in Resources */,
+				DE11FD5628D4C58F00B23053 /* Epilogue-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +221,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64DBC8CA28D351B100091E49 /* TabBarController.swift in Sources */,
+				DE11FD3828D4B41700B23053 /* CozinhaViewController.swift in Sources */,
 				64DBC8B228D0A7A900091E49 /* AppDelegate.swift in Sources */,
+				DE11FD6A28D4E0A400B23053 /* CozinhaCollectionViewCell.swift in Sources */,
 				64DBC8B428D0A7A900091E49 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
