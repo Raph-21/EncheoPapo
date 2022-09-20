@@ -34,14 +34,26 @@ class CozinhaViewController: UIViewController {
         self.view.backgroundColor = .white
         self.title = "Início"
         self.view.addSubview(self.collectionView)
+        self.configConstraints()
+        
         // Defininindo Título da Navigation Bar e cor do fundo da tela.
         
         let labelTitle = UILabel(frame: CGRect(x: 18, y: 110, width: 279, height: 82))
-        labelTitle.text = "O que você quer cozinhar hoje?"
-        labelTitle.textAlignment = .left
-        labelTitle.font = UIFont(name: "Epilogue-ExtraBold", size: 32)
-        labelTitle.numberOfLines = 2
+            labelTitle.text = "O que você quer cozinhar hoje?"
+            labelTitle.textAlignment = .left
+            labelTitle.font = UIFont(name: "Epilogue-ExtraBold", size: 32)
+            labelTitle.numberOfLines = 2
         
+    }
+    
+    private func configConstraints(){
+        
+        NSLayoutConstraint.activate([
+            self.collectionView.topAnchor.constraint(equalTo: self.view.topAnchor),
+            self.collectionView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
+            self.collectionView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
+            self.collectionView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
+        ])
     }
 }
 
